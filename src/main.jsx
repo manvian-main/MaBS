@@ -20,6 +20,9 @@ import MultiMedia_portfolio from './Components/Portfolio/MultiMedia_portfolio.js
 import Technology_Portfolio from './Components/Portfolio/Techhnology_portfolio.jsx'
 import Articles from './Components/Blogs/Articles.jsx'
 import Blogs from './Components/Blogs/Blogs.jsx'
+import PrivacyPolicy from './Components/Legal/PrivacyPolicy.jsx'
+import TermsAndConditions from './Components/Legal/TermsAndConditions.jsx'
+import RefundPolicy from './Components/Legal/RefundPolicy.jsx'
 
 const Router = createBrowserRouter([
   {
@@ -42,7 +45,10 @@ const Router = createBrowserRouter([
       { path: "/portfolio/Multimedia", element: <MultiMedia_portfolio /> },
       { path: "/portfolio/Technology", element: <Technology_Portfolio /> },
       { path: "/Insights/Articles", element: <Articles /> },
-      { path: "/Insights/Blogs/:id", element: <Blogs /> }
+      { path: "/Insights/Blogs/:id", element: <Blogs /> },
+      { path: "/privacy-policy", element: <PrivacyPolicy /> },
+      { path: "/terms-and-conditions", element: <TermsAndConditions /> },
+      { path: "/refund-policy", element: <RefundPolicy /> }
     ]
   }
 ])

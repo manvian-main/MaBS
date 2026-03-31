@@ -213,6 +213,9 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold mb-2">Resources</h4>
           <ul className="space-y-1">
+            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+            <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+            <li><Link to="/refund-policy">Refund & Cancellation</Link></li>
             <li>Blog</li>
             <li>Newsletter</li>
           </ul>

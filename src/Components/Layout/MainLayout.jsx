@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import AnimatedCursor from 'react-animated-cursor'
 import Navbar from '../Navbar/Navbar.jsx'
+import Footer from '../Footer/Footer.jsx'
 
 const MainLayout = () => {
   return (
@@ -25,6 +26,7 @@ const MainLayout = () => {
       <Navbar />
       <ScrollToTop />
       <Outlet />
+      <Footer />
     </>
   )
 }
